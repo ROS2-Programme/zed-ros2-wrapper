@@ -37,6 +37,8 @@
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 #elif defined FOUND_IRON
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
+#elif FOUND_GALACTIC
+#include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 #elif defined FOUND_FOXY
 #include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 #else
